@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+}
+
+.maze {
+
+}
+
+.row {
+	display: flex;
+}
+
+.cell {
+    border: 1px solid grey;
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+}
+
+.wall {
+	background: black;
+}
+
+.path {
+	background: green;
+}
+
+.deadlock {
+	background: red;
+}
